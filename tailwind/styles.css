@@ -1,0 +1,9 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.cabecalho{
+    @apply bg-gray-800 flex flex-col items-center p-20;
+}
