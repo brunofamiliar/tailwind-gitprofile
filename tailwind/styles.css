@@ -4,6 +4,4 @@
 
 @import "tailwindcss/utilities";
 
-.cabecalho{
-    @apply bg-gray-800 flex flex-col items-center p-20;
-}
+@import "cabecalho";

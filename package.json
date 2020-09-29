@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss tailwind/styles.css -o dist/output.css"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,10 @@
     "url": "https://github.com/devgiordane/tailwind-gitprofile/issues"
   },
   "homepage": "https://github.com/devgiordane/tailwind-gitprofile#readme",
-  "devDependencies": {
-    "tailwind": "^4.0.0"
+  "devDependencies": {},
+  "dependencies": {
+    "postcss-cli": "^8.0.0",
+    "postcss-import": "^12.0.1",
+    "tailwindcss": "^1.8.10"
   }
 }
